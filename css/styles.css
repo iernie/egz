@@ -52,3 +52,9 @@ body #content ul li a {
 body #content ul li a:hover {
   color: rgba(0, 0, 0, 0.6);
 }
+@media (max-width: 960px) {
+  #content {
+    width: 100% !important;
+    margin: 10px !important;
+  }
+}
